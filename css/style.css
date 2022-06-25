@@ -144,3 +144,54 @@
 .featured-in__logos img:hover {
     filter: none;
 }
+
+/*****************************/
+/* HOW IT WORKS SECTION */
+/*****************************/
+.section-how {
+    padding: 4rem 0;
+}
+.how-it-works__step-number {
+    font-size: 8.6rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-white-2);
+    margin-bottom: 1.2rem;
+}
+.how-it-works__step-description {
+    font-size: var(--font-size-L);
+    line-height: 1.8;
+}
+
+.how-it-works__step-img-box picture {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works__step-img-box picture::before,
+.how-it-works__step-img-box picture::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.how-it-works__step-img-box picture::before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: var(--color-secondary);
+    z-index: -2;
+}
+
+.how-it-works__step-img-box picture::after {
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: var(--color-secondary-dark);
+    z-index: -1;
+}
+.how-it-works__step-img {
+    width: 35%;
+}
