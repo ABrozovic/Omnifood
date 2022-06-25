@@ -63,3 +63,57 @@
 .mobile-nav__icon[name="close-outline"] {
     display: none;
 }
+/*****************************/
+/* HERO SECTION */
+/*****************************/
+.section-hero {
+    background-color: var(--color-secondary);
+    padding: 3em 0 6em 0;
+}
+.hero {
+    max-width: 81.25rem;
+    margin: 0 auto;
+    padding: 0 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+}
+.hero-image {
+    width: 100%;
+}
+
+.hero__description {
+    font-size: var(--font-size-XL);
+    line-height: 1.5;
+    margin-bottom: 3em;
+}
+
+.delivered-meals {
+    display: flex;
+    align-items: center;
+    gap: var(--font-size-M);
+    margin-top: 5em;
+}
+.delivered-meals__imgs {
+    display: flex;
+}
+.delivered-meals__imgs picture {
+    margin-right: -1em;
+}
+.delivered-meals__imgs picture img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 3px solid var(--color-secondary);
+}
+
+.delivered-meals__text {
+    margin-left: 1em;
+    font-size: var(--font-size-L);
+    font-weight: var(--font-weight-medium);
+}
+.delivered-meals__text span {
+    color: var(--color-primary-dark);
+    font-weight: var(--font-weight-bold);
+}
