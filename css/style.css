@@ -320,3 +320,94 @@
 .gallery__img:active {
     transform: scale(1.05);
 }
+/*****************************/
+/* Pricing SECTION */
+/*****************************/
+.section-pricing {
+    padding: 6em 0;
+}
+.pricing-plan {
+    border-radius: 11px;
+    padding: 3em;
+    width: 75%;
+    overflow: hidden;
+}
+.pricing-plan--starter {
+    justify-self: end;
+    box-shadow: inset 0 0 0 2px var(--color-secondary-dark);
+}
+.pricing-plan--complete {
+    background-color: var(--color-secondary-dark);
+    position: relative;
+}
+.pricing-plan--complete::after {
+    content: "Best Value";
+    text-transform: uppercase;
+    color: var(--color-grey-1);
+    font-size: var(--font-size-M);
+    font-weight: var(--font-weight-bold);
+    position: absolute;
+    top: 6%;
+    right: -12%;
+    background-color: var(--color-tag-3);
+    padding: 0.5em 3em;
+    transform: rotate(45deg);
+}
+.pricing-plan__header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.pricing-plan__name {
+    color: var(--color-primary-dark);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-L);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+.pricing-plan__price {
+    font-size: 3.5rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-grey-1);
+    margin-bottom: 1rem;
+}
+.pricing-plan__price span {
+    font-size: 2rem;
+    font-weight: var(--font-weight-medium);
+    margin-right: 0.5rem;
+}
+.pricing-plan__text {
+    font-size: var(--font-size-S);
+    color: var(--color-grey-3);
+    line-height: 1.8;
+}
+.pricing-plan__sign-up {
+    text-align: center;
+    margin-top: 3rem;
+}
+.pricing-plan__details {
+    font-size: var(--font-size-M);
+    line-height: 1.6;
+    color: var(--color-grey-3);
+    text-align: center;
+}
+.feature__icon {
+    color: var(--color-primary-dark);
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--color-secondary-dark);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.feature__title {
+    font-size: var(--font-size-XXL);
+    color: var(--color-grey-1);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 1rem;
+}
+.feature__text {
+    font-size: var(--font-size-L);
+    line-height: 1.125rem;
+}
