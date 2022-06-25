@@ -35,6 +35,32 @@
     <title>Omnifood</title>
   </head>
   <body>
+  <header class="header">
+    <a href="#">
+      <picture>
+        <source srcset="img/omnifood-logo.webp" type="image/webp" />
+        <source srcset="img/omnifood-logo.png" type="image/png" />
+        <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo" />
+      </picture>
+    </a>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li><a class="main-nav__link" href="#how">How it works</a></li>
+        <li><a class="main-nav__link" href="#meals">Meals</a></li>
+        <li>
+          <a class="main-nav__link" href="#testimonials">Testimonials</a>
+        </li>
+        <li><a class="main-nav__link" href="#pricing">Pricing</a></li>
+        <li>
+          <a class="main-nav__link nav-cta" href="#cta">Try for free</a>
+        </li>
+      </ul>
+    </nav>
 
+    <button class="mobile-nav">
+      <ion-icon class="mobile-nav__icon" name="menu-outline"></ion-icon>
+      <ion-icon class="mobile-nav__icon" name="close-outline"></ion-icon>
+    </button>
+  </header>
   </body>
 </html>
