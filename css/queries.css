@@ -234,3 +234,55 @@
         width: 75%;
     }
 }
+/**************************/
+/* SAFARI FIX */
+/**************************/
+
+.no-flexbox-gap .main-nav__list li:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.no-flexbox-gap .list__item:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.no-flexbox-gap .list-icon:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.no-flexbox-gap .delivered-faces {
+    margin-right: 1rem;
+}
+
+.no-flexbox-gap .meal__attribute:not(:last-child) {
+    margin-bottom: 1.25rem;
+}
+
+.no-flexbox-gap .meal__icon {
+    margin-right: 1rem;
+}
+
+.no-flexbox-gap .footer-row div:not(:last-child) {
+    margin-right: 4rem;
+}
+
+.no-flexbox-gap .footer__social-links li:not(:last-child) {
+    margin-right: 1.5em;
+}
+
+.no-flexbox-gap .footer__nav li:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 75em) {
+    .no-flexbox-gap .main-nav__list li:not(:last-child) {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 59em) {
+    .no-flexbox-gap .main-nav__list li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+}
