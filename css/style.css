@@ -484,3 +484,71 @@
     outline: none;
     box-shadow: 0 0 0 0.3rem rgba(253, 242, 233, 0.5);
 }
+/*****************************/
+/* Footer SECTION */
+/*****************************/
+.footer {
+    padding: 6em 0;
+    border-top: 1px solid #eee;
+}
+.grid--footer {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.footer__logo {
+    display: block;
+    margin-bottom: 2rem;
+}
+.footer__logo-col {
+    display: flex;
+    flex-direction: column;
+}
+.footer__social-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.footer__social-links ion-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.copyright {
+    font-size: var(--font-size-M);
+    line-height: 1.6;
+    color: var(--color-grey-4);
+    margin-top: auto;
+}
+
+.footer__contacts {
+    font-style: normal;
+    font-size: var(--font-size-M);
+    line-height: 1.6;
+}
+
+.footer__contacts p:last-child {
+    margin-top: 2.35rem;
+}
+.footer__heading {
+    font-size: var(--font-size-L);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 2rem;
+}
+.footer__nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer__link {
+    font-size: var(--font-size-M);
+    color: var(--color-grey-4);
+    transition: all -0.3s;
+}
+.footer__link:link,
+.footer__link:visited {
+    text-decoration: none;
+}
+.footer__link:hover,
+.footer__link:active {
+    color: var(--color-grey-2);
+}
